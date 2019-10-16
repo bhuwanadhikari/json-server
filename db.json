@@ -1,5 +1,8 @@
 {
-  "login-success": {},
+  "login-success": {
+    "message": "Success",
+    "token": "xyz",
+  },
   "login-fail": {},
   "login": {},
   "signup-success": {},
