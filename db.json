@@ -1,23 +1,31 @@
 {
-  "login-success": {
-    "success": true,
-    "token": "Bearer xyz"
-  },
-  "login-failed": {
-    "success": false,
-    "errors": {
-      "email": "Email is not found",
-      "password": "Password incorrect"
-    }
-  },
-  "signup-success": {
-    "success": true,
-    "token": "Bearer xyz"
-  },
-  "signup-failed": {
-    "success": false,
-    "errors": {
-      "email": "Email is already taken",
-    }
-  }
+	"login-success": {
+		"success": true,
+		"token": "Bearer xyz"
+	},
+	"login-failed": {
+		"success": false,
+		"errors": {
+			"email": "Email is not found",
+			"password": "Password incorrect"
+		}
+	},
+	"signup-success": {
+		"success": true,
+		"token": "Bearer xyz"
+	},
+	"signup-failed": {
+		"success": false,
+		"errors": {
+			"email": "Email is already taken"
+		}
+	},
+	"forgot-success": {
+		"success": false
+	},
+	"forgot-failed": {
+		"errors": {
+			"email": "Something went wrong, try again"
+		}
+	}
 }
