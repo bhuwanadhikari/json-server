@@ -4,8 +4,6 @@
     "token": "xyz"
   },
   "login-fail": {},
-  "login": {},
   "signup-success": {},
   "signup-fail": {},
-  "signup": {}
 }
