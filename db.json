@@ -1,20 +1,16 @@
 {
   "login-success": {
-    "message": "success",
-    "token": "xyz"
+    "success": true,
+    "token": "Bearer xyz"
   },
-  "comments": [{
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "login-failed": {
+    "success": false
+  },
+  "signup-success": {
+    "success": true,
+    "token": "Bearer xyz"
+  },
+  "signup-failed": {
+    "success": false
   }
 }
