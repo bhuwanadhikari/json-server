@@ -19,13 +19,5 @@
 		"errors": {
 			"email": "Email is already taken"
 		}
-	},
-	"forgot-success": {
-		"success": false
-	},
-	"forgot-failed": {
-		"errors": {
-			"email": "Something went wrong, try again"
-		}
 	}
 }
