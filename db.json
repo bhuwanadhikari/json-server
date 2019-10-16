@@ -4,13 +4,20 @@
     "token": "Bearer xyz"
   },
   "login-failed": {
-    "success": false
+    "success": false,
+    "errors": {
+      "email": "Email is not found",
+      "password": "Password incorrect"
+    }
   },
   "signup-success": {
     "success": true,
     "token": "Bearer xyz"
   },
   "signup-failed": {
-    "success": false
+    "success": false,
+    "errors": {
+      "email": "Email is already taken",
+    }
   }
 }
